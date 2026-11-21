@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fbf5f0">
+  <meta name="description" content="A tiny corner of the internet made to make you smile.">
+  <title>A Little Something for You ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div id="confetti-layer" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Back to the beginning">little note <span>♡</span></a>
+    <span class="topbar-note">a tiny thing, just for you</span>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="flower flower-left" aria-hidden="true">✿</div>
+      <div class="flower flower-right" aria-hidden="true">✽</div>
+      <p class="eyebrow">HELLO, YOU</p>
+      <h1>I made a little<br><em>something</em> for you.</h1>
+      <p class="hero-copy">Nothing huge. Just a small corner of the internet<br class="desktop-only"> to hopefully make your day a little brighter.</p>
+      <a class="button button-primary" href="#note">Come have a look <span>♡</span></a>
+      <div class="scroll-hint">SCROLL A LITTLE <span>↓</span></div>
+    </section>
+
+    <section class="note-section section" id="note">
+      <div class="section-label">01 / A LITTLE NOTE</div>
+      <article class="letter-card">
+        <div class="letter-stamp">for you<br>✿</div>
+        <p class="handwritten">Hey there,</p>
+        <h2>A small thing I wanted to say.</h2>
+        <p class="letter-copy">I don't need a special occasion to say this, but I genuinely enjoy talking with you. Somehow, our conversations can make an ordinary day feel a little less ordinary.</p>
+        <p class="letter-copy">So I made this little page. No big reason, no expectations — I just thought it might make you smile. And if it does, then mission accomplished. :)</p>
+        <p class="signature">— someone who likes talking to you <span>♡</span></p>
+      </article>
+      <p class="tiny-caption">P.S. You can keep this little note. It's yours.</p>
+    </section>
+
+    <section class="mood-section section" id="mood">
+      <div class="section-label">02 / PICK A LITTLE SOMETHING</div>
+      <h2>What kind of day<br>are we having?</h2>
+      <p class="section-intro">Choose one. I prepared a tiny message for you.</p>
+      <div class="mood-grid">
+        <button class="mood-card" data-mood="smile"><span class="mood-icon">☀️</span><strong>Need a smile</strong><small>A little sunshine</small></button>
+        <button class="mood-card" data-mood="compliment"><span class="mood-icon">🌷</span><strong>Need a compliment</strong><small>A reminder for you</small></button>
+        <button class="mood-card" data-mood="tired"><span class="mood-icon">☁️</span><strong>Feeling tired</strong><small>Take a little break</small></button>
+        <button class="mood-card" data-mood="curious"><span class="mood-icon">✨</span><strong>Just curious</strong><small>Something random</small></button>
+      </div>
+      <div class="message-box" id="mood-message" role="status" aria-live="polite">
+        <span class="message-sparkle">✧</span>
+        <p>Your little message will appear here.</p>
+      </div>
+    </section>
+
+    <section class="game-section section" id="surprise">
+      <div class="section-label">03 / A TINY SURPRISE</div>
+      <div class="surprise-card">
+        <span class="surprise-star">✦</span>
+        <p class="eyebrow">A VERY IMPORTANT QUESTION</p>
+        <h2>Would you like<br>some good vibes?</h2>
+        <p>They are free, unlimited, and specially delivered to you.</p>
+        <button class="button button-primary" id="vibes-button">Yes, please! ♡</button>
+        <div class="vibes-result" id="vibes-result" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="ending section" id="end">
+      <div class="ending-flower" aria-hidden="true">✿</div>
+      <p class="eyebrow">THAT'S ALL FOR NOW</p>
+      <h2>I hope this made<br>you <em>smile.</em></h2>
+      <p class="ending-copy">That's all I wanted. Have a lovely day, okay?</p>
+      <button class="text-button" id="back-to-top">One more look? ↑</button>
+      <p class="footer-sign">made with a little thought & care <span>♡</span></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© a tiny page on the internet</span>
+    <span>made just for you ♡</span>
+  </footer>
+</body>
+</html>
